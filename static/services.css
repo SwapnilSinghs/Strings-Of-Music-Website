@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+
+section {
+    padding: 10px 0;
+   /* min-height: 100vh;*/
+}
+
+.section-padding {
+padding: 10px 0;
+}
+
+.section-title {
+margin-bottom: 50px;
+}
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+height: 125px;
+border-radius: 100%;
+}
+
+
+#navbar{
+    background-color: #eed5e3d9;
+    padding: 18px 14px;
+    font-family: 'Yeon Sung' ;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: #49052a; 
+    font-size: 30px;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+
+#navbar li a:hover{
+    color: firebrick;  
+}
+
+
+.section-title h2 {
+font-size: 40px;
+line-height: 45px;
+position: relative;
+margin-bottom: 20px;
+color: #333333;
+text-transform: capitalize;
+}
+
+.services-area {
+margin-bottom: -30px;
+}
+.serviecs-block .single-serviecs-block {
+margin: 30px 0;
+}
+.single-serviecs-block {
+padding: 30px 40px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+text-align: center;
+overflow: hidden;
+position: relative;
+display: block;
+height: 450px;
+margin-bottom: 30px;
+}
+
+
+.single-serviecs-block:hover {
+background: #eed5e3d9;
+color: #fff;
+}
+.single-serviecs-block:hover h3 a {
+color: #1f1a27;
+margin-top: 300px;
+}
+.single-serviecs-block:hover p {
+display: none;
+}
+.single-serviecs-block:hover i {
+top: 50%;
+left: 50%;
+transform: translate(-50%, -90%);
+background: #fff;
+color: #eed5e3d9;
+height: 100px;
+width: 100px;
+font-size: 40px;
+line-height: 100px; 
+}
+.single-serviecs-block h3 a {
+color: #333333;
+margin-bottom: 15px;
+margin-top: 80px;
+display: block;
+overflow: hidden;
+transition: 0.5s;
+}
+
+.single-serviecs-block i {
+color: #fff;
+font-size: 50px;
+height: 140px;
+width: 140px;
+line-height: 170px;
+text-align: center;
+background: #eed5e3d9;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: 50%;
+transform: translateX(-50%);
+transition: 0.6s;
+}

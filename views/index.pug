@@ -1,0 +1,61 @@
+//- index.pug
+doctype html
+html
+  head
+    title Strings Of Music
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.jpg")
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/contact") Contact Us]
+    
+    section#introSection
+        div Welcome to Strings Of Music
+        div.small Happy Rhythm Of Life
+
+    section#missionSection
+        h2 Our Mission
+        div.row
+            div.column
+                div.card
+                    h3 Music gives Positive Vibes
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/in5.jpg")
+                        div.card-content
+                            p Music for All’s mission is to create, provide and expand positively life-changing experiences through music for all.We believe that music and arts education is a core to students’ education and must be available to all students.
+            div.column
+                div.card
+                    h3 Enjoy Music the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/in7.jpg")
+                        div.card-content
+                            p “A great song should lift your heart, warm the soul and make you feel good”.
+                            | Music for All is committed to creating positively life-changing experiences for everyone within and connected to the organization.
+            div.column
+                div.card
+                    h3 Expert Teaching
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/in3.jpg")
+                        div.card-content
+                            p Music for All is an advocate for music and arts education. Our educational programs support the efforts of instrumental music teachers on the high school and middle school levels, as well as provide positively life-changing experiences for students.
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/wynk-music-logo.png",class="spImage1")
+            img(src="/static/img/sony1.png",class="spImage2")
+            img(src="/static/img/spotify.png",class="spImage3")
+            img(src="/static/img/soundcloud.png",class="spImage4")
+    
+    footer#footer
+        | Copyright © 2020 Strings Of Music | All rights reserved
+    script
+      include ../static/index.js

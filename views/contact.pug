@@ -1,0 +1,59 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Strings Of Music
+    link(rel="stylesheet" type="text/css" href="../static/contact.css")
+    // fontawesome.cdn for ICONS
+    link(href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous")
+    // animatecss.cdn for ANIMATION
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css")
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.jpg")
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/contact") Contact Us]
+    .container
+      h1.brand
+        span Strings
+        |  Of Music
+      // animated bounceInLeft class for selection what will be animated
+      .wrapper.animated.bounceInLeft
+        .company-info
+          h3 Strings Of Music
+          ul
+            li
+              i.fa.fa-road
+              |  Delhi-NCR | India
+            li
+              i.fa.fa-phone
+              |  9876543210
+            li
+              i.fa.fa-envelope
+              |  stringsofmusic@google.com
+        .contact
+          h3 Contact Us
+          form(action="/contact", method="post", class="myForm")
+            p
+              label Name
+              input(type="text" name="name")
+            p
+              label Company
+              input(type="text" name="company")
+            p
+              label Email Adress
+              input(type="email" name="email")
+            p
+              label Phone Number
+              input(type="text" name="phone")
+            p.full
+              label Message
+              textarea(name="message" rows="5")
+            p.full
+              button(class="btn") 
+                | Submit

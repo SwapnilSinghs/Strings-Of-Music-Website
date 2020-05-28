@@ -1,0 +1,48 @@
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Strings Of Music
+    link(rel="stylesheet" type="text/css" href="../static/services.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css")
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.jpg")
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/contact") Contact Us]
+    section.services-area.section-padding
+      .container
+        .row.justify-content-center
+          .col-lg-7.col-md-12.wow.fadeInUp(data-wow-delay="0.3s")
+            .section-title.text-center
+              h2 Our Services
+              p
+                | Music is basic human function. Humankind and art cannot function without one another. We have the burning desire to create, whatever it may be and however tiny or grand. The interaction with sound is unavoidable, either to make it or take pleasure in it.
+                | People have always found music significant in their lives, whether for enjoyment in listening, the emotional response, performing, or creating.
+        .row
+          .col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="0.4s")
+            .single-serviecs-block
+              i.fas.fa-print
+              h3
+                a(href="services-details.html") Recordings
+              p
+                | Recordings are (traditionally) owned by record companies. Some artists own their own record companies (e.g., Ani DiFranco). A recording contract specifies the business relationship between a recording artist and the record company. In a traditional contract, the company provides an advance to the artist who agrees to record music that will be owned by the company.
+          .col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="0.5s")
+            .single-serviecs-block
+              i.far.fa-lightbulb
+              h3
+                a(href="services-details.html") Media
+              p
+                | Physical media (such as CDs or vinyl records) are sold by music retailers and are owned by the consumers after they buy them. Buyers do not typically have the right to make digital copies from CDs or other media they buy, or rent or lease the CDs, because they do not own the recording on the CD, they only own the individual physical CD.
+          .col-lg-4.col-md-6.col-sm-12.wow.fadeInUp(data-wow-delay="0.6s")
+            .single-serviecs-block
+              i.far.fa-envelope
+              h3
+                a(href="services-details.html") Live music
+              p
+                | A promoter brings together a performing artist and a venue owner and arranges contracts. A booking agency represents the artist to promoters, makes deals and books performances. Consumers usually buy tickets either from the venue or from a ticket distribution service such as Ticketmaster
+    // /Services Area
